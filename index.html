@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="caixa-maior" style="max-width: 90%; width: 450px;">
+
+    <textarea class="input-texto"></textarea>
+
+  <div class="controle">
+    <select class="idioma">
+    <option value="en-US">English</option>
+    <option value="es-ES">Spanish</option>
+    <option value="fr-FR">French</option>
+    <option value="pt-BR">Portuguese</option>
+    <option value="de-DE">German</option>
+    <option value="zh-CN">Chinese</option>
+    <option value="ja-JP">Japanese</option>
+    <option value="ru-RU">Russian</option>
+    <option value="it-IT">Italian</option>
+    <option value="ar-SA">Arabic</option>
+    <option value="hi-IN">Hindi</option>
+    <option value="ko-KR">Korean</option>
+    <option value="tr-TR">Turkish</option>
+    <option value="vi-VN">Vietnamese</option>
+    <option value="nl-NL">Dutch</option> 
+    <option value="sv-SE">Swedish</option>
+    <option value="el-GR">Greek</option>
+    <option value="pl-PL">Polish</option>
+    <option value="he-IL">Hebrew</option>
+    <option value="th-TH">Thai</option>
+    <option value="id-ID">Indonesian</option>
+    <option value="uk-UA">Ukrainian</option>
+    <option value="cs-CZ">Czech</option>
+    <option value="hu-HU">Hungarian</option>
+    <option value="fi-FI">Finnish</option>
+    <option value="no-NO">Norwegian</option>
+    <option value="ro-RO">Romanian</option>
+    <option value="bg-BG">Bulgarian</option>
+    <option value="sk-SK">Slovak</option>
+    <option value="hr-HR">Croatian</option>
+    <option value="sr-RS">Serbian</option>
+    <option value="ms-MY">Malay</option>
+    <option value="tl-PH">Filipino</option>
+    <option value="sw-KE">Swahili</option>
+    <option value="fa-IR">Persian</option>
+    <option value="bn-BD">Bengali</option>
+    <option value="gu-IN">Gujarati</option>
+    <option value="mr-IN">Marathi</option>
+    <option value="ta-IN">Tamil</option>
+    <option value="te-IN">Telugu</option>
+    <option value="kn-IN">Kannada</option>
+    <option value="pa-IN">Punjabi</option>
+    <option value="ur-PK">Urdu</option>
+    <option value="af-ZA">Afrikaans</option>
+    <option value="is-IS">Icelandic</option>
+    <option value="lv-LV">Latvian</option>
+    <option value="lt-LT">Lithuanian</option>
+    <option value="sl-SI">Slovenian</option>
+</select>
+
+    <button onclick="traduzir()">
+      <img src="img/tradutor.png">
+    </button>
+
+    <button onclick="ouvirVoz()">
+      <img src="img/microphone.png">
+    </button>
+
+    <button onclick="falar()">
+      <img src="img/som.png"> 
+    </button>
+
+    <button onclick="copiarTexto()">
+  <img src="img/copia.png"> </button>
+
+  </div>
+
+  <div class="resultado">
+        <h3 class="titulo-traducao">Tradução</h3>
+         <p class="traducao">A Tradução aparecerá aqui...</p>
+  </div>
+
+  </div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
